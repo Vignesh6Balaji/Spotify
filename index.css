@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#nav {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+#nav > article {
+  height: 75px;
+  width: 60%;
+  display: flex;
+}
+#nav > article > .logo {
+  height: 75px;
+  width: 55%;
+  display: flex;
+}
+
+#nav > article > .menu {
+  height: 75px;
+  width: 45%;
+}
+#nav > article > .logo > svg {
+  width: 21.5%;
+  cursor: pointer;
+}
+#nav > article > .menu > ol {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  list-style: none;
+  height: 100%;
+}
+#nav > article > .menu > ol > li > strong > a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+#nav > article > .menu > ol > li > strong > a:hover {
+  color: green;
+}
+/* -------------------------------------------------nav ends-------------------------------------- */
+#content1 {
+  height: 550px;
+  width: 100%;
+  background: center -138px / 100% 1068px no-repeat, linear-gradient(rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#content1 > article {
+  height: 80%;
+  width: 60%;
+  display: flex;
+}
+#content1 > article > .mobile {
+  height: 100%;
+  width: 40%;
+}
+#content1 > article > .text {
+  margin-top: 88px;
+  height: 80%;
+  width: 60%;
+}
+#content1 > article > .mobile > svg {
+  height: 120%;
+  width: 95%;
+}
+#content1 > article > .text > .a {
+  letter-spacing: -2px;
+  font-size: 53px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.15;
+  color: white;
+}
+#content1 > article > .text > button {
+  height: 40px;
+  width: 150px;
+  background-color: white;
+  border-radius: 30px;
+  border: 0px;
+  font-size: small;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content1 > article > .text > button:hover {
+  margin-top: -5px;
+  margin-left: -5px;
+  border: 5px solid white;
+  box-sizing: content-box;
+  position: absolute;
+  font-size: 14px;
+}
+#content1 > article > .mobile > img {
+  position: absolute;
+  height: 400px;
+  width: 251px;
+  left: 298px;
+  top: 220px;
+}
+/* --------------------------------------------------------------top page-------------------------------------------------------------------------- */
+#content2 {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content2 > article {
+  height: 500px;
+  width: 60%;
+}
+#content2 > article > .name {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content2 > article > .name > h1 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+#content2 > article > .logos {
+  height: 350px;
+  width: 100%;
+}
+#content2 > article > .logos > ol {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#content2 > article > .logos > ol > li > .aa {
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#content2 > article > .logos > ol > li > .ab {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#content2 > article > .logos > ol > li > .ac {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#content2 > article > .logos > ol > li > .ad {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#content3 {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content3 > article {
+  height: 100%;
+  width: 100%;
+}
+#content3 > article > .free {
+  height: 400px;
+  width: 100%;
+  font-size: 48px;
+  background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content3 > article > .free > p {
+  font-size: 48px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#content3 > article > .ques {
+  height: 450px;
+  width: 60%;
+  margin-left: 350px;
+}
+#content3 > article > .ques > p {
+  margin-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+}
+#content3 > article > .ques > ol {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-top: 73px;
+  list-style: none;
+  text-align: left;
+  line-height: 70px;
+  font-weight: bolder;
+  word-spacing: 2px;
+}
+#content3 > article > .ques > ol > .abc:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: rgb(243, 241, 241);
+}
+#content3 > article > .ques > ol > .abd:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: rgb(243, 241, 241);
+}
+#content3 > article > .ques > ol > .abe:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: rgb(243, 241, 241);
+}
+#content3 > article > .ques > ol > .abf:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: rgb(243, 241, 241);
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#content4 {
+  height: 900px;
+  width: 100%;
+}
+#content4 > article {
+  width: 100%;
+  height: 100%;
+}
+#content4 > article > .abz {
+  height: 450px;
+  width: 100%;
+  background: left -10px bottom -160px,
+    linear-gradient(
+      -45deg,
+      rgb(108, 14, 224) 16%,
+      rgb(240, 55, 166),
+      rgb(108, 14, 224)
+    );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content4 > article > .abz > p {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#content4 > article > .abz > button {
+  top: 2300px;
+  position: absolute;
+  height: 45px;
+  width: 165px;
+  border-radius: 30px;
+  border: white;
+  font-weight: bolder;
+}
+#content4 > article > .abz > button:hover {
+  margin-top: -4px;
+  margin-left: -4px;
+  border: 4px solid white;
+  box-sizing: content-box;
+  position: absolute;
+  font-size: 14px;
+}
+#content4 > article > .aby {
+  height: 555px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content4 > article > .aby > .xy {
+  margin-top: -70px;
+  height: 360px;
+  width: 60%;
+  margin-left: 30px;
+}
+#content4 > article > .aby > .xy > .xyy {
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#content4 > article > .aby > .xy > .xyy > ol {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -400px;
+  font-size: 15px;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a1 > ol {
+  height: 65px;
+  width: 130px;
+  list-style: none;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a2 > ol {
+  line-height: 35px;
+  list-style: none;
+  position: relative;
+  left: -70px;
+  top: 20px;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a2 > ol > strong > .x1:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a2 > ol > strong > .x2:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a2 > ol > strong > .x3:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a3 > ol > strong > .x4:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a3 > ol > strong > .x5:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a3 > ol > strong > .x6:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a3 > ol > strong > .x7:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a3 > ol > strong > .x8:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a4 > ol > strong > .x9:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a4 > ol > strong > .x10:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a4 > ol > strong > .x11:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a3 > ol {
+  position: relative;
+  list-style: none;
+  left: -130px;
+  top: 20px;
+  line-height: 35px;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a4 > ol {
+  list-style: none;
+  position: relative;
+  left: -160px;
+  line-height: 35px;
+  top: 20px;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li > .c1 > .b1:hover {
+  cursor: pointer;
+  background-color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li > .c2 > .b2:hover {
+  cursor: pointer;
+  background-color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li > .c3 > .b3:hover {
+  cursor: pointer;
+  background-color: green;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li > .c1 > .b1 {
+  display: inline-flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li > .c2 > .b2 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+ 
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li > .c3 > .b3 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large; 
+} 
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li {
+  display: flex;
+} 
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li > .c1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background-color: #222326;
+  border: 0px solid #222326;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li > .c2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background-color: #222326;
+  border: 0px solid #222326;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10px;
+}
+#content4 > article > .aby > .xy > .xyy > ol > .a5 > ol > li > .c3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background-color: #222326;
+  border: 0px solid #222326;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 20px;
+}
+#content4 > article > .aby > .xy > .xyz {
+  margin-top: 130px;
+  margin-left: -30px;
+  height: 120px;
+  width: 125%;
+  display: flex;
+  align-items: end;
+}
+#content4 > article > .aby > .xy > .xyz > .d1 {
+  height: 50%;
+  width: 60%;
+}
+#content4 > article > .aby > .xy > .xyz > .d1 > ol {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-between;
+  color: #919496;
+  font-size: 13px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  align-items: center;
+  padding: 5px;
+  text-decoration: none;
+}
+#content4 > article > .aby > .xy > .xyz > .d1 > ol > .f1:hover {
+  cursor: pointer;
+  color: green; 
+}
+#content4 > article > .aby > .xy > .xyz > .d1 > ol > .f2:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyz > .d1 > ol > .f3:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyz > .d1 > ol > .f4:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyz > .d1 > ol > .f5:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyz > .d1 > ol > .f6:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyz > .d2 {
+  height: 100%;
+  width: 15%;
+  margin-left: 550px;
+}
+#content4 > article > .aby > .xy > .xyz > .d2 > ol {
+  position: relative;
+  top: 20px;
+  list-style: none;
+  color: #919496;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  text-align: end;
+}
+#content4 > article > .aby > .xy > .xyz > .d2 > ol > .e1:hover {
+  cursor: pointer;
+  color: green;
+}
+#content4 > article > .aby > .xy > .xyz > .d1 > ol > .f6 > svg {
+  height: 13px;
+  width: 30px;
+}
